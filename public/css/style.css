@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: beige;
+}
+#navbar {
+	background-color: crimson;
+}
+#navbar > li {
+	display: inline-block;
+	padding: 10px;
+	font-size: 20px;
+	color: white;
+}
+#navbar > li > a{
+	text-decoration: none;
+	color: white;
+}
+#navbar > li.active{
+	background-color: rgb(137, 7, 33);
+}
+
+#navbar > li:hover, li.active:hover{
+	background-color: rgb(93, 6, 24);
+	cursor: pointer;
+}
+
+.movie-post{
+	width: 200px;
+	margin: 20px auto;
+	border: 1px solid gray;
+	padding: 10px;
+	
+}
+
+.movie-post > .movie-name{
+	text-align: center;
+}
+
+.movie-post > img{
+	width: 200px;
+	height: 200px;
+}
+
